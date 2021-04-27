@@ -53,7 +53,57 @@ int length(Node* head)
     return ret;
 }
 
-void removeLoop(Node* head);
+
+ // } Driver Code Ends
+/*
+structure of linked list node:
+
+struct Node
+{
+    int data;
+    Node* next;
+    
+    Node(int val)
+    {
+        data = val;
+        next = NULL;
+    }
+};
+
+*/
+
+class Solution
+{
+    public:
+    
+    
+    
+    //Function to remove a loop in the linked list.
+    void removeLoop(Node* head)
+    {
+        // code here
+        // just remove the loop without losing any nodes
+        Node *slow=head,*fast=head;
+        while(slow&&fast&&fast->next){
+            slow=slow->next;
+            fast=fast->next->next;
+            if(slow==fast){
+                slow=head;
+                if(slow==fast){
+                    while(fast->next!=slow)fast=fast->next;
+                }else{
+                    while(slow->next!=fast->next){
+                        slow=slow->next;
+                        fast=fast->next;
+                    }
+                }
+                fast->next=NULL;
+            }
+        }
+    }
+};
+
+// { Driver Code Starts.
 
 int main()
 {
@@ -79,7 +129,8 @@ int main()
         cin>> pos;
         loopHere(head,tail,pos);
         
-        removeLoop(head);
+        Solution ob;
+        ob.removeLoop(head);
         
         if( isLoop(head) || length(head)!=n )
             cout<<"0\n";
@@ -88,59 +139,4 @@ int main()
     }
 	return 0;
 }
-// } Driver Code Ends
-
-
-/*
-structure of linked list node:
-
-struct Node
-{
-    int data;
-    Node* next;
-    
-    Node(int val)
-    {
-        data = val;
-        next = NULL;
-    }
-};
-
-*/
-
-void removeLoop(Node *ln,Node *head){
-    Node* n=ln;
-    int count =1;
-    while(n->next!=ln){
-        n=n->next;
-        count++;
-    }
-    Node *p1=head,*p2=head;
-    for(int i=0;i<count;i++)
-        p2=p2->next;
-    while(p1!=p2){
-        p1=p1->next;
-        p2=p2->next;
-    }
-    Node *p3=p2;
-    while(p3->next!=p1){
-        p3=p3->next;
-    }
-    p3->next=NULL;
-    
-}
-
-void removeLoop(Node* head)
-{
-    // code here
-    // just remove the loop without losing any nodes
-    struct Node *slow=head,*fast=head;
-    while(slow&&fast&&fast->next){
-        slow=slow->next;
-        fast=fast->next->next;
-        if(slow==fast){
-            removeLoop(slow,head);
-        }
-    }
-    
-}
+  // } Driver Code Ends
