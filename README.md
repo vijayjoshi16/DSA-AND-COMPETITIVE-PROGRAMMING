@@ -13,13 +13,16 @@
     <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/02.String">Strings 🅰️🅱️2️⃣🅾️</a>
     </li>
   <li>
-    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/03.SearchingAndSorting">Searching And Sorting 🔍📈</a>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/03.SearchingAndSorting">Searching And Sorting 🔍 🔁 📈 📊</a>
     </li>
   <li>
-    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/04.LinkedList">Linked Lists 🔗</a>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/04.LinkedList">Linked Lists 5️⃣➡️️2️⃣➡️8️⃣➡️4️⃣➡️</a>
     </li>
   <li>
-    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/05.BinaryTree">Binary Trees 🌲</a>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/05.BinaryTree">Binary Trees 🌲🌱</a>
+    </li>
+  <li>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/06.BinarySearchTree">Binary Search Trees 🌲🔍</a>
     </li>
   
 
