@@ -24,6 +24,9 @@
   <li>
     <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/06.BinarySearchTree">Binary Search Trees 🌲🔍</a>
     </li>
+  <li>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/07.Greedy">Greedy 😋 ➡️ 💰 ➡️ 🤑</a>
+    </li>
   
 
 </ol>
