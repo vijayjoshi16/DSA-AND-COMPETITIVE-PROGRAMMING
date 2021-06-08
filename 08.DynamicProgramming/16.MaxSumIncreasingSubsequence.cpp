@@ -2,25 +2,30 @@
 using namespace std;
 
  // } Driver Code Ends
-
-
 class Solution{
 		
 
 	public:
-	int maxSumIS(int a[], int n)  
+	int maxSumIS(int arr[], int n)  
 	{  
 	    // Your code goes here
-	    vector<int> mth(n);
-	    for(int i=0;i<n;i++){
-	        mth[i]=a[i];
+	    int msis[n];
+	    for(int i=0;i<n;i++)
+	    msis[i]=arr[i];
+	    
+	    for(int i=1;i<n;i++){
 	        for(int j=0;j<i;j++){
-	            if(a[j]<a[i]){
-	                mth[i]=max(mth[i],a[i]+mth[j]);
-	            }
+	            if(arr[j]<arr[i]&&(msis[j]+arr[i])>msis[i])
+	            msis[i]=msis[j]+arr[i];
 	        }
 	    }
-	    return *max_element(mth.begin(),mth.end());
+	    
+	    int max=0;
+	    for(int i=0;i<n;i++){
+	        if(msis[i]>max)
+	        max=msis[i];
+	    }
+	    return max;
 	}  
 };
 

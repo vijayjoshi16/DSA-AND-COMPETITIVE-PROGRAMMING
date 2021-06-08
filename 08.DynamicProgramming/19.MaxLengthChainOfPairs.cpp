@@ -43,15 +43,24 @@ bool sortBySecond(val a,val b){
 /*You are required to complete this method*/
 int maxChainLen(struct val p[],int n)
 {
-//Your code here
+    //Your code here
     sort(p,p+n,sortBySecond);
-    int len=1;
-    int threshold=p[0].second;
+    
+    int dp[n];
+    for(int i=0;i<n;i++)
+    dp[i]=1;
+    
     for(int i=1;i<n;i++){
-        if(p[i].first>threshold){
-            len++;
-            threshold=p[i].second;
+        for(int j=0;j<i;j++){
+            if(p[j].second<p[i].first)
+            dp[i]=max(dp[i],1+dp[j]);
         }
     }
-    return len;
+    
+    int max=0;
+    for(int i=0;i<n;i++){
+        if(dp[i]>max)
+        max=dp[i];
+    }
+    return max;
 }
