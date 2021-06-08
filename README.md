@@ -25,10 +25,10 @@
     <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/06.BinarySearchTree">Binary Search Trees 🌲🔍</a>
   </li>
   <li>
-    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/07.Greedy">Greedy 😋 ➡️ 💰 ➡️ 🤑</a>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/07.Greedy">Greedy Algorithms 😋 ➡️ 💰 ➡️ 🤑</a>
   </li>
   <li>
-    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/08.DynamicProgramming">Dynamic Programming 💡 ➡️ 👨‍💻 ➡️ 📝 ➡️ 😃</a>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/08.DynamicProgramming">Dynamic Programming 💡 ➡️ 📝 ➡️ 👨‍💻 ➡️ ✅ ➡️ 😃</a>
   </li>
   
 
