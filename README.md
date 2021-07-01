@@ -19,7 +19,7 @@
     <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/04.LinkedList">Linked Lists 5️⃣➡️️2️⃣➡️8️⃣➡️4️⃣➡️</a>
   </li>
     <li>
-    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/04.LinkedList">Linked Lists 5️⃣➡️️2️⃣➡️8️⃣➡️4️⃣➡️</a>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/05.StacksAndQueues">Stacks And Queues 📚 🧍 ➡️️ 🧍 ➡️️ 🧍 ➡️️</a>
   </li>
   <li>
     <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/06.BinaryTree">Binary Trees 🌲🌱</a>
