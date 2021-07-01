@@ -18,18 +18,21 @@
   <li>
     <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/04.LinkedList">Linked Lists 5️⃣➡️️2️⃣➡️8️⃣➡️4️⃣➡️</a>
   </li>
-  <li>
-    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/05.BinaryTree">Binary Trees 🌲🌱</a>
+    <li>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/04.LinkedList">Linked Lists 5️⃣➡️️2️⃣➡️8️⃣➡️4️⃣➡️</a>
   </li>
   <li>
-    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/06.BinarySearchTree">Binary Search Trees 🌲🔍</a>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/06.BinaryTree">Binary Trees 🌲🌱</a>
   </li>
   <li>
-    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/07.Greedy">Greedy Algorithms 😋 ➡️ 💰 ➡️ 🤑</a>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/07.BinarySearchTree">Binary Search Trees 🌲🔍</a>
   </li>
   <li>
-    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/08.DynamicProgramming">Dynamic Programming 💡 ➡️ 📝 ➡️ 👨‍💻 ➡️ ✅ ➡️ 😃</a>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/08.Greedy">Greedy Algorithms 😋 ➡️ 💰 ➡️ 🤑</a>
   </li>
-  
+  <li>
+    <a href="https://github.com/vijayjoshi16/DSA-AND-COMPETITIVE-PROGRAMMING/tree/master/09.DynamicProgramming">Dynamic Programming 💡 ➡️ 📝 ➡️ 👨‍💻 ➡️ ✅ ➡️ 😃</a>
+  </li>
+
 
 </ol>
